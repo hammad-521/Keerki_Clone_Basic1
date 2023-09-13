@@ -1,0 +1,584 @@
+/*
+ Color Used in Project
+
+#ffffff
+#eab939
+#0278ae
+#07689f
+#ffffff
+#f8f9fa
+#0278ae
+#212529
+#000000 
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #0278ae;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* ------------------ Header -------------------------- */
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  width: 100%;
+  border-left-width: 50px;
+  padding-left: 112px;
+  padding-right: 112px;
+}
+
+.logo img {
+  width: 94.63px;
+  margin-left: 2px;
+}
+
+.login-register {
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  gap: 16px;
+  margin-right: 45px;
+}
+
+.login,
+.btn-yellow {
+  color: #212529;
+  background-color: #eab939;
+  border: 1px solid #eab939;
+  cursor: pointer;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  padding-bottom: 10px;
+  padding-top: 9px;
+  padding-right: 47px;
+  padding-left: 47px;
+}
+
+.login:hover,
+.free:hover {
+  background-color: #e6b22f;
+  cursor: pointer;
+}
+
+button.register {
+  border: 1px solid white;
+  padding-left: 38px;
+  padding-bottom: 1px;
+  padding-right: 38px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+button.register:hover,
+.Catalogs:hover,
+.btn-partner:hover {
+  background-color: white;
+  color: #212529;
+  cursor: pointer;
+}
+
+nav > ul {
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  gap: 48px;
+  padding-top: 3px;
+  padding-left: 1px;
+}
+
+nav ul li {
+  list-style-type: none;
+  color: #f8f9fa;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.language {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.english-flag {
+  width: 24px;
+  height: 25px;
+  border-radius: 50%;
+  padding-bottom: 2px;
+}
+.icon {
+  width: 9%;
+  color: white;
+  padding-top: 5px;
+}
+/* ------------------ Main Section -------------------------- */
+
+main {
+  width: auto;
+  height: 526px;
+  text-align: center;
+  padding-top: 141px;
+  color: #ffffff;
+}
+
+main > h1 {
+  font-size: 68px;
+  padding: 0 310px;
+  font-weight: 700;
+  padding-top: 3px;
+  line-height: 82px;
+  letter-spacing: 0.18px;
+}
+
+main > p {
+  padding: 30px;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.free {
+  color: #212529;
+  background-color: #eab939;
+  border: 1px solid #eab939;
+  cursor: pointer;
+  height: 58px;
+  width: 160px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-right: 1px;
+}
+
+.Catalogs {
+  border: 1px solid white;
+
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  height: 58px;
+  width: 160px;
+
+  margin-left: 11px;
+}
+
+.free-catalog {
+  margin-left: 515px;
+  margin-right: 498px;
+}
+/* ------------------ Container Section -------------------------- */
+.conatiner-image img {
+  width: 100%;
+}
+
+/* ------------------ Services Section -------------------------- */
+
+.services {
+  text-align: center;
+  margin-top: 156px;
+  color: #ffffff;
+}
+
+.services > h1 {
+  font-size: 52px;
+  font-weight: 400;
+  color: #f8f9fa;
+  line-height: 62px;
+}
+
+.services > p {
+  padding: 32px 460px 50px 460px;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 70px;
+}
+
+.service-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 16px;
+  font-size: 24px;
+}
+
+.product,
+.consultation,
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  line-height: 24px;
+  width: 280px;
+  height: 180px;
+  padding-bottom: 20px;
+}
+.box > svg {
+  margin-bottom: 6px;
+}
+
+.consultation,
+.information {
+  padding-bottom: 21px !important;
+}
+
+/* ------------------ Gallery Section -------------------------- */
+
+.gallery {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 304px;
+}
+
+.gallery h1 {
+  font-size: 46px;
+  font-weight: 400;
+  padding-bottom: 31px;
+  line-height: 55px;
+}
+
+.gallery p {
+  padding: 1px 460px 72px 460px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.second-row {
+  gap: 24px;
+}
+
+.first-row > img {
+  border-radius: 12px;
+  margin-bottom: 45px;
+}
+
+.second-row > img {
+  border-radius: 12px;
+  margin-top: 3px;
+}
+
+.catlog-btn {
+  width: 152px;
+  height: 58px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  margin-top: 48px;
+}
+.catlog-btn:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+/* ------------------ Partner Section -------------------------- */
+.partner {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 160px;
+}
+
+.partner h1 {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+}
+
+.partner p {
+  padding: 17px 270px 72px 270px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.company-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.btn-partner {
+  border: 1px solid white;
+
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 135px;
+  height: 42px;
+
+  padding-left: 1px;
+  margin-top: 64px;
+  margin-left: 15px;
+}
+
+/* ------------------ Clients Section -------------------------- */
+
+.clients {
+  margin: 160px 0 144px 0;
+  color: #ffffff;
+}
+.clients > h1 {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  margin-bottom: 24px;
+}
+
+.testimonials {
+  display: flex;
+  gap: 16px;
+  margin: 0 322px 0 339px;
+}
+
+.test1,
+.test2 {
+  width: 336px;
+  height: 414px;
+  padding: 32px 48px;
+}
+.test3 {
+  width: 335px;
+  height: 478px;
+  padding: 32px 32px;
+}
+
+.test4 {
+  width: 335px;
+  height: 366px;
+  padding: 32px 32px;
+}
+.test4 .top {
+  padding-top: 8px !important;
+  padding-bottom: 0px !important ;
+  margin-bottom: 0px !important;
+}
+
+.test4 .bottom {
+  margin-top: 8px;
+}
+
+.gold {
+  border: 1px solid #eab939;
+  border-radius: 12px;
+
+  margin-bottom: 16px;
+
+  background-color: #07689f;
+}
+
+.top > img {
+  width: 50px;
+  height: 50px;
+  background-color: #07689f;
+}
+
+.top {
+  display: flex;
+  background-color: #07689f;
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+.bottom {
+  margin-top: 15px;
+  background-color: #07689f;
+}
+.bottom p {
+  background-color: #07689f;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.title p {
+  background-color: #07689f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #f8f9fa;
+  letter-spacing: 0px;
+}
+.title {
+  background-color: #07689f;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.test1 .title {
+  margin-left: 24px;
+  align-items: center;
+}
+
+.test2 .title {
+  margin-left: 28px;
+}
+
+.test3 .title,
+.test4 .title {
+  margin-left: 32px;
+}
+
+.pad {
+  padding-left: 2px;
+}
+
+/* ------------------ Offer Section -------------------------- */
+
+.offer {
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+
+  background-color: #07689f;
+  border-radius: 32px;
+  width: 1025px;
+  height: 340px;
+
+  margin-left: 162px;
+  margin-right: 160px;
+}
+
+.offer-info {
+  background-color: #07689f;
+  margin: 0 35px;
+}
+
+.offer-info h1 {
+  background-color: #07689f;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+  margin-bottom: 45px;
+  margin-top: 53px;
+}
+
+.offer-img img {
+  width: 512.625px;
+  height: 340px;
+  background-color: #07689f;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+
+.free-last {
+  width: 224px;
+  height: 58px;
+  border: 1px solid #eab939;
+  background-color: #eab939;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #212529;
+  margin-top: 11px;
+}
+
+/* ------------------ Footer Section -------------------------- */
+
+footer {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+
+  align-items: center;
+  color: #ffffff;
+  margin-top: 160px;
+  height: 222px;
+
+  margin-left: 107px;
+  margin-right: 50px;
+}
+
+.contact {
+  height: 154px;
+  padding-top: 1px;
+}
+
+.location,
+.mobile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.mobile {
+  margin-left: 6px;
+  padding-top: 6px;
+}
+.social-media {
+  padding-top: 1px;
+}
+
+.ml-lg-4 {
+  margin-right: 12px !important;
+}
+
+.social-media > svg {
+  margin-right: 11px;
+}
+
+.number {
+  padding-bottom: 1px;
+}
+
+.page-links {
+  display: flex;
+  gap: 160px;
+  margin-left: 48px;
+}
+
+.location {
+  margin-bottom: 10px !important;
+}
+
+.foot {
+  font-size: 20px !important;
+  margin-bottom: 32px !important;
+  line-height: 30px !important;
+  font-weight: 400 !important;
+}
+
+.main p,
+.resources p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.foot-logo img {
+  width: 300px;
+  margin-top: 5px;
+}
+
+.copy-right {
+  color: #ffffff;
+  text-align: center;
+  margin: 112px 0 128px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
